@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>form</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<main>
+		<form action="contact.php" method="POST">
+			<label for="lastName">lastName:</label>
+			<input type="text" name="lastName" value="" id="lastName">
+			<label for="firstName">firstName:</label>
+			<input type="text" name="firstName" value="" id="firstName">
+			<label for="birthDate">birthDate:</label>
+			<input type="date" name="birthDate" value="" id="birthDate">
+			<label for="male">male:</label>
+			<input type="radio" name="gender" value="male" id="male" checked>
+			<label for="female">female:</label>
+			<input type="radio" name="gender" value="female" id="female">
+			<label for="mail">mail:</label>
+			<input type="text" name="mail" value="" id="mail">
+			<label for="message">message:</label>
+			<input type="textarea" name="message" value="" id="message">
+			<input type="submit" id="submit" value="submit">
+		</form>
+	</main>
+	<script src="js/script.js"></script>
+</body>
+</html>
